@@ -8,3 +8,19 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     transform: translateY(-4px);
 }
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra los elementos en el eje vertical del contenedor */
+    align-items: center;     /* Centra las cajas (como el botón) horizontalmente */
+    text-align: center;
+}
