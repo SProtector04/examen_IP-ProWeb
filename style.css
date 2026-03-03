@@ -1,0 +1,10 @@
+.my-custom-hover-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-custom-hover-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+}
